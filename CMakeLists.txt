@@ -64,7 +64,7 @@ source_group(
 ########################################################################################################################
 ## Configure target DLL
 ########################################################################################################################
-
+find_package(directxtk CONFIG REQUIRED)
 find_package(CommonLibSSE CONFIG REQUIRED)
 find_package(binary_io REQUIRED CONFIG)
 find_package(spdlog REQUIRED CONFIG)
